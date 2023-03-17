@@ -34,8 +34,7 @@ body {
 .nav-list-item:hover {
   color: #404bbf;
 }
-.nav-list-item:hover,
-.nav-list-item:focus {
+.nav-list-item:hover .nav-list-item:focus {
   color: #404bbf;
 }
 .nav-list-item {
@@ -58,8 +57,7 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.contacts:hover,
-.contacts:focus {
+.contacts:hover .contacts:focus {
   color: #404bbf;
 }
 /* Section 1 */

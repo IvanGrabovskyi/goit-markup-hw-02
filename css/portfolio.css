@@ -7,7 +7,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #ffffff;
+  background-color: var(--secondary-text-color);
 }
 .list {
   list-style: none;
@@ -29,6 +29,24 @@ body {
   color: #2e2f42;
 }
 
+/* NAVIGATION LIST  */
+.nav-list-item {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* ADDRESS CONTACTS */
+.address-section {
+  font-style: normal;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+}
 /* Portfolio main page */
 
 /* Portfolio button */
