@@ -1,0 +1,68 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* WebStudio logo header  */
+.logo-icon {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.icon-logo {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+/* Portfolio main page */
+.filter-list {
+  list-style: none;
+}
+/* Portfolio button */
+.filter-list-item:focus,
+.filter-list-item:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+.filter-list-item {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+
+/* Photo list work */
+.img-work-list {
+  list-style: none;
+}
+.img-work-link {
+  text-decoration: none;
+}
+.work-lead {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.work-lead-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.icon-logo-footer {
+  color: #f4f4fd;
+}

@@ -1,10 +1,54 @@
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   color: #434455;
 }
-.contacts:focus,
-.contacts:hover {
+/* WebStudio logo header */
+.logo-icon {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+.icon-logo {
+  color: #2e2f42;
+}
+.link {
+  text-decoration: none;
+}
+/* WebStudio navigation */
+.nav-list {
+  list-style: none;
+}
+.nav-list-item:hover {
+  color: #404bbf;
+}
+.nav-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* ADDRESS CONTACTS */
+.address-section {
+  font-style: normal;
+}
+.address-list {
+  list-style: none;
+}
+.contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
+  text-decoration: none;
+}
+.contacts:hover {
+  color: #404bbf;
 }
 /* Section 1 */
 .hero-section {
@@ -15,17 +59,15 @@ body {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
-
   color: #ffffff;
 }
 .order-button {
+  font-family: "Roboto", sans-serif;
   width: 169px;
   height: 56px;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-}
-.order-text {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -33,11 +75,20 @@ body {
   letter-spacing: 0.04em;
   color: #ffffff;
 }
+
+.order-button:hover,
+.order-button:focus {
+  color: #404bbf;
+  cursor: pointer;
+}
+/* SECTION 2 ABOUT US */
+
 .about-title {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .about-subtitle {
@@ -45,19 +96,23 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
+/* SECTION 3 WORK */
 .works-title {
-  color: #2e2f42;
-  font-weight: 700;
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.11;
   text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 .work-list {
   width: 360px;
   height: 300px;
   border: 1px solid #e7e9fc;
 }
+/* SECTION 4 TEAM */
 .team-wrap {
   background: #f4f4fd;
 }
@@ -69,6 +124,10 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  line-height: 1.11;
+}
+.team-list {
+  list-style: none;
 }
 .team-itms {
   width: 264px;
@@ -84,12 +143,20 @@ body {
   line-height: 1.2;
   text-align: center;
   color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 .team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-
+  letter-spacing: 0.02em;
   color: #434455;
+}
+/* FOOTER */
+.footer {
+  background-color: #2e2f42;
+}
+.icon-logo-footer {
+  color: #f4f4fd;
 }
