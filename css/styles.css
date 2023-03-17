@@ -44,7 +44,7 @@ body {
 .link-itms:hover {
   color: #404bbf;
 }
-.link-itms :focus {
+.link-itms:focus {
   color: #404bbf;
 }
 
