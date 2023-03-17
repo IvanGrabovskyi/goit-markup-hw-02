@@ -22,7 +22,7 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--web-text-color)
+  color: var(--web-text-color);
 }
 .icon-logo {
   color: var(--primary-text-color);
@@ -31,18 +31,21 @@ body {
   text-decoration: none;
 }
 /* WebStudio navigation */
-.nav-list-item:hover {
-  color: var(--hover-focus-color);
-}
-.nav-list-item:focus {
-  color: var(--hover-focus-color);
-}
+
 .nav-list-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+.link-itms {
   color: var(--primary-text-color);
+}
+.link-itms:hover {
+  color: #404bbf;
+}
+.link-itms :focus {
+  color: #404bbf;
 }
 
 /* ADDRESS CONTACTS */
