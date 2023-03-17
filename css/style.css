@@ -4,6 +4,7 @@
   --white-text-colot: #ffffff;
   --footer-text-color: #f4f4fd;
   --web-text-color: #4d5ae5;
+  --hover-focus-color: #404bbf;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -31,11 +32,8 @@ body {
 }
 /* WebStudio navigation */
 
-.nav-list-item:hover {
-  color: #404bbf;
-}
 .nav-list-item:hover .nav-list-item:focus {
-  color: #404bbf;
+  color: var(--hover-focus-color);
 }
 .nav-list-item {
   font-weight: 500;
@@ -58,7 +56,7 @@ body {
   text-decoration: none;
 }
 .contacts:hover .contacts:focus {
-  color: #404bbf;
+  background-color: var(--hover-focus-color);
 }
 /* Section 1 */
 .hero-section {
