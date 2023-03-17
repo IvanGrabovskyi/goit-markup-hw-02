@@ -1,6 +1,17 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --white-text-colot: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --web-text-color: #4d5ae5;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
 }
 /* WebStudio logo header */
 .logo-icon {
@@ -19,9 +30,7 @@ body {
   text-decoration: none;
 }
 /* WebStudio navigation */
-.nav-list {
-  list-style: none;
-}
+
 .nav-list-item:hover {
   color: #404bbf;
 }
@@ -37,9 +46,7 @@ body {
 .address-section {
   font-style: normal;
 }
-.address-list {
-  list-style: none;
-}
+
 .contacts {
   font-size: 16px;
   line-height: 1.5;
@@ -126,9 +133,7 @@ body {
   color: #2e2f42;
   line-height: 1.11;
 }
-.team-list {
-  list-style: none;
-}
+
 .team-itms {
   width: 264px;
   height: 380px;

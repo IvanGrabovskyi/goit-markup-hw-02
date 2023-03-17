@@ -1,5 +1,19 @@
+:root {
+  --primary-text-color: #2e2f42;
+  --secondary-text-color: #434455;
+  --white-text-colot: #ffffff;
+  --footer-text-color: #f4f4fd;
+  --web-text-color: #4d5ae5;
+}
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
 }
 /* WebStudio logo header  */
 .logo-icon {
@@ -14,13 +28,9 @@ body {
 .icon-logo {
   color: #2e2f42;
 }
-.link {
-  text-decoration: none;
-}
+
 /* Portfolio main page */
-.filter-list {
-  list-style: none;
-}
+
 /* Portfolio button */
 .filter-list-item:focus,
 .filter-list-item:hover {
@@ -40,9 +50,7 @@ body {
 }
 
 /* Photo list work */
-.img-work-list {
-  list-style: none;
-}
+
 .img-work-link {
   text-decoration: none;
 }
