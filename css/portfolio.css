@@ -7,7 +7,8 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  background-color: var(--secondary-text-color);
+  background-color: #e5e5e5;
+  color: var(--secondary-text-color);
 }
 .list {
   list-style: none;
@@ -37,6 +38,12 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
 }
+.nav-list-item:hover {
+  color: #404bbf;
+}
+.nav-list-item:focus {
+  color: #404bbf;
+}
 /* ADDRESS CONTACTS */
 .address-section {
   font-style: normal;
@@ -47,6 +54,12 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+}
+.contacts:focus {
+  color: #404bbf;
+}
+.contacts:hover {
+  color: #404bbf;
 }
 /* Portfolio main page */
 

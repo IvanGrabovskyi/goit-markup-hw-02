@@ -31,8 +31,10 @@ body {
   text-decoration: none;
 }
 /* WebStudio navigation */
-
-.nav-list-item:hover .nav-list-item:focus {
+.nav-list-item:hover {
+  color: var(--hover-focus-color);
+}
+.nav-list-item:focus {
   color: var(--hover-focus-color);
 }
 .nav-list-item {
@@ -55,8 +57,11 @@ body {
   color: #434455;
   text-decoration: none;
 }
-.contacts:hover .contacts:focus {
-  background-color: var(--hover-focus-color);
+.contacts:hover {
+  color: #404bbf;
+}
+.contacts:focus {
+  color: #404bbf;
 }
 /* Section 1 */
 .hero-section {
@@ -70,9 +75,12 @@ body {
   color: #ffffff;
   letter-spacing: 0.02em;
 }
-.order-button:hover,
+.order-button:hover {
+  background-color: #404bbf;
+  cursor: pointer;
+}
 .order-button:focus {
-  color: #404bbf;
+  background-color: #404bbf;
   cursor: pointer;
 }
 .order-button {
